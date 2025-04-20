@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-up">
-        <img src="src/assets/quick.png" alt="Logo" className="logo" />
+        <img src="../../assets/quick.png" alt="Logo" className="logo" />
         <div className="social-icons">
           <a className="link" href="https://www.linkedin.com" target="_blank" ><FaLinkedin /></a>
           <a className="face" href="https://www.facebook.com" target="_blank" ><FaFacebook /></a>

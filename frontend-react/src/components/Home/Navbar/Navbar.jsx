@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="src/assets/quick.png" alt="logo" height={90} />
+        <img src="../../assets/quick.png" alt="logo" height={90} />
       </div>
       <ul className="nav-links">
        <Menu /> 
