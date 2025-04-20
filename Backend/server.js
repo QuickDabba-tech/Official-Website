@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 app.use(cors({
   origin: "https://official-website-dqdw.vercel.app/", 
-  methods: "POST"
+  methods: ["GET", "POST"]
 }));
 app.use(express.json());
 
