@@ -1,5 +1,5 @@
 import React from "react";
-import "./WhoWeAre.css";
+import "./Whoweare.css";
 import ghibli from "/src/assets/ghibli.png";
 
 const WhoWeAre = () => {

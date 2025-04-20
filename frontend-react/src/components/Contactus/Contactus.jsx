@@ -15,7 +15,7 @@ const Contactus = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("http://localhost:5000/api/contact/contactsubmit", {
+      const response = await fetch("https://official-website-fzvm.onrender.com/api/contact/contactsubmit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

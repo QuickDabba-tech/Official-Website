@@ -15,7 +15,7 @@ const Dform = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("http://localhost:5000/api/delivery/deliverysubmit", {
+      const response = await fetch("https://official-website-fzvm.onrender.com/api/delivery/deliverysubmit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -15,7 +15,7 @@ const Form = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch("http://localhost:5000/api/chef/chefsubmit", {
+      const response = await fetch("https://official-website-fzvm.onrender.com/api/chef/chefsubmit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
