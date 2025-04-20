@@ -1,0 +1,86 @@
+.dinfo-container {
+    background-color: var(--color-bg2);
+    height: 69vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .dtop-boxes {
+    display: flex;
+    gap: 160px;
+    margin-top: -20px;
+
+  }
+
+  .dtop-boxes .dbox h2{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--color-bg2);
+  }
+
+  .dtop-boxes .dbox p{
+    font-family: Manrope;
+    color: white;
+  }
+  
+  .dbox {
+    background-color: var(--color-bg);
+    padding: 20px;
+    width: 600px;
+    text-align: left;
+    font-size: 16.5px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media screen and (max-width:1476px){
+    .dinfo-container {
+      height: 112vh;
+    }
+
+    .dtop-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 60px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+    }
+  }
+
+  @media screen and (max-width:690px){
+    .dinfo-container {
+      height: 132vh;
+    }
+    .dbox{
+      width: 315px;
+    }
+  }
+
+  @media screen and (max-width:590px) {
+    .dtop-boxes .dbox h2{
+      font-size: 1.8rem;
+    }
+  }
+
+  @media screen and (max-width:430px) {
+    .dtop-boxes .dbox h2{
+      font-size: 1.4rem;
+    }
+    .dtop-boxes .dbox p{
+      font-size: 0.9rem;
+    }
+  }
+
+  @media screen and (max-width:391px) {
+    .dbox{
+      width: 240px;
+    }
+  }
+  

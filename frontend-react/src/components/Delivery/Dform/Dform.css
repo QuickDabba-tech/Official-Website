@@ -1,0 +1,212 @@
+.dform-start{
+    background-color: var(--color-bg) ;
+    height: 100vh;
+    padding: 1px 0;
+}
+
+.dform-container {
+    max-width: 700px;
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 40px 20px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-bg2);
+  }
+  .dform-container h2{
+    text-align: center;
+    margin-bottom: 37px;
+    font-size: 2.2rem;
+    color: #000000;
+    font-family: Acme;
+    margin-top: 5px;
+    word-spacing: 3px;
+  }
+  
+  .dform-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .dform-group input,
+  .dform-group select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    font-family: Manrope;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+
+  .dform-group .City{
+    margin-right: 90px;
+  }
+  
+  .dform-group .error {
+    color: rgb(255, 0, 0);
+    font-size: 15px;
+    font-family: Manrope;
+    margin-top: 4px;
+  }
+  
+  .submit-bn {
+    width: 15%;
+    padding: 7px;
+    background: #007bff;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-family: Manrope;
+    font-weight: 600;
+  }
+  
+  .submit-bn:hover {
+    background: #0056b3;
+  }
+
+  .deform-message {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .deform-message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    font-family: Manrope;
+    word-spacing: 2px;
+  }
+  
+  .deform-message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    font-family: Manrope;
+    word-spacing: 2px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  
+  @media screen and (max-width:1496px){
+    .dform-start{
+      height: 120vh;
+    }
+  }
+
+  @media screen and (max-width:870px) {
+    .dform-container {
+      max-width: 450px;
+    }
+    .dform-container h2{
+      font-size: 1.8rem;
+    }
+    .dform-group {
+      gap:2rem;
+    }
+    .dform-group input,
+    .dform-group select{
+      width: 79%;
+      margin-left: 1.5rem;
+    }
+    .dform-group .City select{
+      margin-left: 5.5rem;
+    }
+    .dform-group .State select{
+      width: 100%;
+    }
+    .dform-container button{
+      margin-left: 169px;
+      width: 100px;
+    }
+    .dform-group .error{
+      margin-left: 1.5rem;
+      font-size: 14px;
+    }
+    .dform-group  .City .error{
+      margin-left: 5.5rem;
+      margin-right: -1rem;
+    }
+  }
+
+  @media screen and (max-width:590px) {
+    .dform-start{
+      height: 165vh;
+    }
+    .dform-container {
+      max-width: 300px;
+    }
+    .dform-container h2{
+      font-size: 1.44rem;
+    }
+    .dform-group{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .dform-group select{
+      margin-left: -50px;
+    }
+    .dform-group .City select{
+      margin-left: 28px;
+    }
+    .dform-group .State .error{
+     margin-left: -50px;
+    }
+    .dform-group .City .error{
+      margin-left: 30px;
+     }
+     .dform-container button{
+      margin-left: 110px;
+     }
+  }
+
+  @media screen and (max-width:425px) {
+    .dform-container {
+      max-width: 220px;
+    }
+    .dform-container h2{
+      font-size: 1.2rem;
+    }
+    .dform-group .State select{
+      margin-left: 23px;
+      width: 61%;
+    }
+    .dform-group .City select{
+      width: 100%;
+      margin-left: 26px;
+    }
+    .dform-container button{
+      margin-left: 68px;
+      font-size: 1.1rem;
+    }
+    .dform-group .State .error{
+      margin-left: 22px;
+     }
+    .deform-message {
+      font-size: 0.8rem;
+    }
+  }

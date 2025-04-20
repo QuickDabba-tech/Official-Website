@@ -1,0 +1,22 @@
+# Node modules (never push this)
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor-specific folders
+.vscode/
+.idea/
+
+# Optional: system crash logs or npm error logs
+*.tgz
+*.bak
+

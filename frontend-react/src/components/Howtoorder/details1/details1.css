@@ -1,0 +1,45 @@
+.coming-soon-container {
+  background-color: var(--color-bg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coming-soon-text {
+  font-family: Acme;
+  font-size: 6rem;
+  font-weight: bold;
+  color: var(--color-bg2); 
+}
+
+@media screen and (max-width:1141px) {
+  .coming-soon-text {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width:872px){
+  .coming-soon-text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width:613px){
+  .coming-soon-text {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:424px){
+  .coming-soon-text {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width:340px){
+  .coming-soon-text {
+    font-size: 2.02rem;
+  }
+}
+

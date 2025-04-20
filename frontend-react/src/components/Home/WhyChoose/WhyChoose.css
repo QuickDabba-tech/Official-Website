@@ -1,0 +1,554 @@
+.whychoose-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-bg);
+  color: white;
+  height: 100vh;
+}
+
+.text-content {
+  flex: 1;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: -150px;
+  animation: slideInFromBottom 1s ease-out;
+}
+
+.heading {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Acme';
+  margin-left: 50px;
+  margin-top: 166px;
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.subheading {
+  font-size: 35px;
+  margin-left: 50px;
+  font-family: 'Acme';
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+}
+
+.description {
+  font-size: 23px;
+  margin-left: 50px;
+  color: white;
+  font-family: 'Acme';
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slideInFromTop 1s ease-out;
+  margin-top: -70px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.tiffin-1 {
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.tiffin-2{
+  margin-top: 110px;
+  margin-right: 40px;
+  transition: transform 0.3s ease-in-out;
+  width:300px ;
+  height: 200px;
+  cursor: pointer;
+}
+
+.tiffin-3{
+  margin:5px;
+  transition: transform 0.3s ease-in-out;
+  width:250px ;
+  height: 250px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.tiffin-4{
+  margin-left:60px;
+  transition: transform 0.3s ease-in-out;
+  width:270px ;
+  height: 270px;
+  cursor: pointer;
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width:1456px) {
+.whychoose-container {
+  height: 90vh;
+}
+   .heading{
+    font-size: 3.2rem;
+   }
+   .subheading{
+    font-size: 1.8rem;
+    margin-right: 80px;
+   }
+   .description{
+    font-size: 1.44rem;
+   }
+   .tiffin-1{
+    width: 300px;
+    height: 300px;
+   }
+   .tiffin-2{
+    width:270px ;
+    height: 170px;
+   }
+   .tiffin-3{
+    width:200px ;
+    height: 200px;
+   }
+   .tiffin-4{
+    width:220px ;
+    height: 220px;
+   }
+}
+
+@media screen and (max-width:1281px) {
+  .whychoose-container {
+    height: 80vh;
+  }
+  .heading{
+    font-size: 2.7rem;
+   }
+   .subheading{
+    font-size: 1.5rem;
+   }
+   .description{
+    font-size: 1.3rem;
+   }
+   .image-container{
+    margin-top: -30px;
+   }
+   .tiffin-1{
+    width: 250px;
+    height: 250px;
+   }
+   .tiffin-2{
+    width:230px ;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+   }
+   .tiffin-3{
+    width:170px ;
+    height: 170px;
+   }
+   .tiffin-4{
+    width:180px ;
+    height: 180px;
+   }
+}
+
+@media screen and (max-width:1106px) {
+  .whychoose-container {
+    height: 75vh;
+  }
+  .heading{
+    font-size: 2.2rem;
+   }
+   .subheading{
+    font-size: 1.2rem;
+   }
+   .description{
+    font-size: 1.1rem;
+   }
+   .image-container{
+    margin-top: -30px;
+   }
+   .tiffin-1{
+    width: 250px;
+    height: 250px;
+   }
+   .tiffin-2{
+    width:230px ;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 20px;
+   }
+   .tiffin-3{
+    width:170px ;
+    height: 170px;
+   }
+   .tiffin-4{
+    width:180px ;
+    height: 180px;
+   }
+}
+
+@media screen and (max-width:1024px) {
+  .heading{
+    font-size: 2.1rem;
+   }
+  .tiffin-1{
+    width: 220px;
+    height: 220px;
+   }
+   .tiffin-2{
+    width:210px ;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 20px;
+   }
+   .tiffin-3{
+    width:150px ;
+    height: 150px;
+   }
+   .tiffin-4{
+    width:160px ;
+    height: 160px;
+    margin-left: 40px;
+   }
+}
+
+@media screen and (max-width:965px) {
+  .heading{
+    font-size: 2rem;
+   }
+   .subheading{
+    font-size: 1.1rem;
+   }
+   .description{
+    font-size: 1rem;
+   }
+   .tiffin-1{
+    width: 200px;
+    height: 200px;
+   }
+   .tiffin-2{
+    width:190px ;
+    height: 140px;
+    margin-top: 60px;
+    margin-left: 20px;
+   }
+   .tiffin-3{
+    width:130px ;
+    height: 130px;
+   }
+   .tiffin-4{
+    width:140px ;
+    height: 140px;
+    margin-left: 40px;
+   }
+}
+
+@media screen and (max-width:902px) {
+  .whychoose-container {
+    height: 65vh;
+  }
+  .heading{
+    font-size: 1.7rem;
+   }
+   .subheading{
+    font-size: 0.9rem;
+    margin-right: 60px;
+   }
+   .description{
+    font-size: 0.9rem;
+   }
+
+   .tiffin-1{
+    width: 180px;
+    height: 180px;
+   }
+   .tiffin-2{
+    width:170px ;
+    height: 130px;
+    margin-top: 45px;
+    margin-left: 20px;
+   }
+   .tiffin-3{
+    width:110px ;
+    height: 110px;
+   }
+   .tiffin-4{
+    width:120px ;
+    height: 120px;
+    margin-left: 40px;
+   }
+  }
+
+  @media screen and (max-width:810px){
+    .text-content{
+      margin-left: 10px;
+    }
+  }
+
+  @media screen and (max-width:786px) {
+    .whychoose-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 120vh;
+    }
+    .text-content{
+      margin-top: -120px;
+    }
+    .heading{
+      font-size: 2.4rem;
+      text-align: center;
+     }
+     .subheading{
+      font-size: 1.35rem;
+      margin-right: 60px;
+     }
+     .description{
+      font-size: 1.06em;
+     }
+     .text-content .description {
+      margin-left: 15rem;
+      margin-right: 14rem;;
+     }
+  
+     .tiffin-1{
+      width: 240px;
+      height: 240px;
+     }
+     .tiffin-2{
+      width:210px ;
+      height: 155px;
+      margin-top: 70px;
+      margin-left: 20px;
+     }
+     .tiffin-3{
+      width:150px ;
+      height: 150px;
+      margin-right: 60px;
+     }
+     .tiffin-4{
+      width:150px ;
+      height: 150px;
+      margin-left: 40px;
+     }
+  }
+
+  @media screen and (max-width:768px) {
+    .whychoose-container{
+      height: 110vh;
+    }
+    .text-content{
+      margin-top: -120px;
+    }
+    .heading{
+      font-size: 2rem;
+      text-align: center;
+     }
+     .subheading{
+      font-size: 1.2rem;
+     }
+     .description{
+      font-size: 0.95rem;
+     }
+  }
+
+  @media screen and (max-width:697px){
+    .whychoose-container{
+      height: 112vh;
+    }
+    .heading{
+      font-size: 1.9rem;
+      text-align: center;
+     }
+     .subheading{
+      font-size: 1.1rem;
+     }
+     .description{
+      font-size: 0.9rem;
+     }
+     .text-content .description {
+      margin-left: 220px;
+      margin-right: 100px;
+     }
+  }
+
+  @media screen and (max-width:646px){
+    .text-content .description {
+      margin-left: 190px;
+      margin-right: 100px;
+     }
+     .heading{
+      margin-left: -10px;
+     }
+  }
+
+  @media screen and (max-width:590px){
+    .text-content .description {
+      margin-left: 150px;
+      margin-right: 130px;
+     }
+  }
+
+  @media screen and (max-width:506px){
+    .tiffin-1{
+      width: 200px;
+      height: 200px;
+     }
+     .tiffin-2{
+      width:185px ;
+      height: 135px;
+      margin-top: 70px;
+      margin-left: 20px;
+     }
+     .tiffin-3{
+      width:130px ;
+      height: 130px;
+      margin-right: 60px;
+     }
+     .tiffin-4{
+      width:140px ;
+      height: 140px;
+      margin-left: 40px;
+     }
+  }
+
+  @media screen and (max-width:485px) {
+    .text-content .description {
+      margin-left: 130px;
+      margin-right: 110px;
+     }
+     .heading{
+      font-size: 1.7rem;
+      text-align: center;
+     }
+     .subheading{
+      font-size: 1rem;
+     }
+  }
+
+  @media screen and (max-width:440px){
+    .tiffin-1{
+      width: 170px;
+      height: 170px;
+     }
+     .tiffin-2{
+      width:155px ;
+      height: 120px;
+      margin-top: 55px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+     }
+     .tiffin-3{
+      width:120px ;
+      height: 120px;
+      margin-right: 60px;
+     }
+     .tiffin-4{
+      width:120px ;
+      height: 120px;
+      margin-left: 40px;
+     }
+     .text-content .description {
+      margin-left: 110px;
+      margin-right: 90px;
+     }
+     .whychoose-container{
+      height: 102vh;
+    }
+  }
+
+  @media screen and (max-width:421px) {
+    .subheading{
+      font-size: 0.89rem;
+     }
+     .heading{
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width:396px) {
+    .tiffin-1{
+      width: 140px;
+      height: 140px;
+      margin-top: 20px;
+     }
+     .tiffin-2{
+      width:135px ;
+      height: 105px;
+      margin-top: 55px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+     }
+     .tiffin-3{
+      width:100px ;
+      height: 100px;
+      margin-right: 40px;
+     }
+     .tiffin-4{
+      width:100px ;
+      height: 100px;
+      margin-left: 40px;
+     }
+
+     .text-content .description {
+      margin-left: 76px;
+      margin-right: 70px;
+     }
+     .whychoose-container{
+      height: 95vh;
+    }
+  }
+
+  @media screen and (max-width:354px) {
+    .subheading{
+      font-size: 0.8rem;
+     }
+     .heading{
+      font-size: 1.3rem;
+    }
+    .description{
+      font-size: 0.8rem;
+     }
+     .tiffin-1{
+      width: 140px;
+      height: 140px;
+      margin-top: 20px;
+      margin-left: 30px;
+     }
+     .tiffin-2{
+      width:135px ;
+      height: 105px;
+      margin-top: 55px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+     }
+  }
+

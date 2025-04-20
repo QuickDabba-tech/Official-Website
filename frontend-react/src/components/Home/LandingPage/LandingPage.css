@@ -1,0 +1,530 @@
+.home_section {
+  background-color: var(--color-bg);
+  height: 100vh;
+}
+
+.home__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  position: relative;
+  height: 100%;
+}
+
+.home__data {
+  flex: 1;
+  text-align: left;
+  margin-left: 130px;
+  z-index: 2;
+  animation: slideDown 1s ease-out;
+  margin-top: -100px;
+}
+
+.home__title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px rgb(0, 0, 0);
+  font-family: "Acme";
+  color: white;
+}
+
+.home__description {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-family: "Acme";
+  color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.592);
+  margin-top: -1.5rem;
+}
+
+.home__images {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  animation: fadeIn 1.5s ease-out;
+  right: 12%;
+
+}
+
+.home__circle {
+  width: 500px;
+  height: 500px;
+  background-color: #600606;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.home__subcircle {
+  width: 400px;
+  height: 400px;
+  background-color: #ffb400;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home__image {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.home__tomato,
+.home__tom,
+.home__dhaniya,
+.home__mirchi,
+.home__lal,
+.home__carrot {
+  position: absolute;
+  animation: float 3s ease-in-out infinite;
+}
+
+.home__tomato {
+  top: -40px;
+  left: -50px;
+  width: 130px;
+  height: 130px;
+
+}
+
+.home__carrot {
+  top: 150px;
+  right: -200px;
+  width: 190px;
+  height: 190px;
+}
+
+.home__lal {
+  top: 170px;
+  left: -170px;
+  width: 150px;
+  height: 150px;
+}
+
+.home__tom {
+  top: -20px;
+  right: -20px;
+  width: 90px;
+  height: 90px;
+}
+
+.home__dhaniya {
+  bottom: -20px;
+  left: -60px;
+  width: 120px;
+  height: 120px;
+}
+
+.home__mirchi {
+  bottom: -40px;
+  right: -90px;
+  width: 170px;
+  height: 170px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and (max-width:1497px) {
+  .home__data {
+    margin-left: 70px;
+  }
+
+  .home__images {
+    right: 10%;
+  }
+}
+
+@media screen and (max-width:1429px) {
+  .home__circle {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  .home__subcircle {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .home__image {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  .home__tomato {
+    top: -1rem;
+    left: -3rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .home__carrot {
+    top: 7.7rem;
+    right: -9rem;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .home__lal {
+    top: 10.62rem;
+    left: -7.9rem;
+    width: 6.7rem;
+    height: 6.7rem;
+  }
+
+  .home__tom {
+    top: 0.2rem;
+    right: -1.2rem;
+    width: 4.3rem;
+    height: 4.3rem;
+  }
+
+  .home__dhaniya {
+    bottom: 0.1rem;
+    left: -3.5rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .home__mirchi {
+    bottom: -1rem;
+    right: -4.6rem;
+    width: 7.6rem;
+    height: 7.6rem;
+  }
+
+  .home__title {
+    font-size: 4rem;
+  }
+
+  .home__description {
+    font-size: 1.5rem;
+  }
+
+  .home__data {
+    margin-left: 50px;
+  }
+
+  .home__images {
+    right: 8%;
+  }
+}
+
+@media screen and (max-width:1262px) {
+  .home__circle {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .home__subcircle {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .home__image {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .home__lal {
+    top: 9rem;
+  }
+
+  .home__title {
+    font-size: 3.5rem;
+  }
+
+  .home__description {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width:1159px) {
+  .home__circle {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  .home__subcircle {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .home__image {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  .home__title {
+    font-size: 3.1rem;
+  }
+
+  .home__description {
+    font-size: 1.3rem;
+  }
+
+  .home__tom {
+    top: 0.23rem;
+    right: -1.7rem;
+  }
+
+  .home__carrot {
+    top: 6rem;
+  }
+
+  .home__lal {
+    top: 7.62rem;
+  }
+
+  .home_section {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width:1101px) {
+  .home__data {
+    margin-left: 1px;
+  }
+
+  .home__description {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width:995px) {
+  .home__circle {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .home__subcircle {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .home__image {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .home__tomato {
+    top: -1rem;
+    left: -3rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .home__carrot {
+    top: 5rem;
+    right: -6.3rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .home__lal {
+    top: 6.62rem;
+    left: -6rem;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .home__tom {
+    top: 0.1rem;
+    right: -1.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .home__dhaniya {
+    bottom: 0.8rem;
+    left: -3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .home__mirchi {
+    bottom: -0.1rem;
+    right: -4.2rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .home__title {
+    font-size: 2.5rem;
+  }
+
+  .home__description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:882px) {
+  .home__tomato {
+    display: none;
+  }
+
+  .home__carrot {
+    display: none;
+  }
+
+  .home__lal {
+    display: none;
+  }
+
+  .home__tom {
+    display: none;
+  }
+
+  .home__dhaniya {
+    display: none;
+  }
+
+  .home__mirchi {
+    display: none;
+  }
+
+  .home__images {
+    right: -3%;
+    margin-bottom: 2rem;
+  }
+
+  .home__title {
+    font-size: 2.7rem;
+  }
+
+  .home__description {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width:742px) {
+  .home_section {
+    height: 115vh;
+  }
+
+  .home__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home__data {
+    margin-top: 2.4rem;
+  }
+
+  .home__images {
+    margin-bottom: 5.2rem;
+    margin-left: 18.3rem;
+  }
+
+  .home__description {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width:422px) {
+  .home__description {
+    font-size: 1.2rem;
+  }
+
+  .home__title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:396px) {
+  .home__description {
+    font-size: 1.06rem;
+  }
+
+  .home_section {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width:362px) {
+  .home_section {
+    height: 96vh;
+  }
+  .home__title {
+    font-size: 2.2rem;
+  }
+  .home__description {
+    font-size: 0.87rem;
+  }
+  .home__images {
+    margin-bottom: 5.2rem;
+    margin-left: 15rem;
+  }
+  .home__circle {
+    width: 16rem;
+    height: 16rem;
+  }
+  .home__subcircle {
+    width: 11rem;
+    height: 11rem;
+  }
+  .home__image {
+    width: 16rem;
+    height: 16rem;
+  }
+}

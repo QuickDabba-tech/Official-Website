@@ -1,0 +1,120 @@
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-bg);
+}
+
+.mission-image img {
+  width: 360px;
+  height: 260px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.629);
+  border-radius: 50%;
+  margin-top: 5px ;
+}
+
+.mission-text {
+  max-width: 1350px;
+  margin-top: 8px;
+}
+
+.mission-text h2 {
+  font-size: 2.8rem;
+  font-family: Acme;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.826);
+}
+
+.mission-text p {
+  font-size: 1.12rem;
+  font-family: Manrope;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+}
+
+@media screen and (max-width:1496px) {
+  .mission-container {
+    height: 107vh;
+  }
+  .mission-image img{
+    width: 330px;
+    height: 240px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width:1378px) {
+  .mission-text {
+    max-width: 1150px;
+  }
+}
+
+@media screen and (max-width:1177px) {
+  .mission-text {
+    max-width: 850px;
+  }
+  .mission-text h2 {
+    font-size: 2.5rem;
+  }
+  .mission-text p {
+    font-size: 1.02rem;
+  }
+} 
+@media screen and (max-width:908px){
+  .mission-container {
+    height: 111vh;
+  }
+  .mission-text {
+    max-width: 650px;
+  }
+  .mission-text h2 {
+    font-size: 2.3rem;
+  }
+  .mission-text p {
+    font-size: 0.96rem;
+  }
+}
+
+@media screen and (max-width:681px){
+  .mission-text {
+    max-width: 450px;
+  }
+  .mission-text h2 {
+    font-size: 2.1rem;
+  }
+  .mission-text p {
+    font-size: 0.81rem;
+  }
+  .mission-image img {
+    width: 320px;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width:487px) {
+  .mission-text {
+    max-width: 280px;
+  }
+  .mission-text h2 {
+    font-size: 1.9rem;
+  }
+  .mission-text p {
+    font-size: 0.7rem;
+  }
+  .mission-image img {
+    width: 260px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+}
+
