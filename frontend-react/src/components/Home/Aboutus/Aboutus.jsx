@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "./AboutUs.css";
+import "./Aboutus.css";
 import aboutImage from "/src/assets/about-image.png"; 
 import { Link } from "react-router-dom";
 
