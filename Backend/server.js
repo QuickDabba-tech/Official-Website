@@ -7,7 +7,10 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: ["https://official-website-dqdw.vercel.app/"], 
+  methods: ["GET", "POST"]
+}));
 app.use(express.json());
 
 app.use("/api/contact", require("./routes/contactRoutes"));
