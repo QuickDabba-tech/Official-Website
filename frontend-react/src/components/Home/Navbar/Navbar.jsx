@@ -2,6 +2,7 @@ import {React, useState} from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
+import quick from "/src/assets/quick.png";
 
 const Menu = () => (
   <>
@@ -17,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="../../assets/quick.png" alt="logo" height={90} />
+        <img src={quick} alt="quicklogo" height={90} />
       </div>
       <ul className="nav-links">
        <Menu /> 

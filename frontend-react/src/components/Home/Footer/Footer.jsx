@@ -3,12 +3,13 @@ import "./Footer.css";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import quick from "/src/assets/quick.png";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-up">
-        <img src="../../assets/quick.png" alt="Logo" className="logo" />
+        <img src={quick} alt="quicklogo" className="logo" />
         <div className="social-icons">
           <a className="link" href="https://www.linkedin.com" target="_blank" ><FaLinkedin /></a>
           <a className="face" href="https://www.facebook.com" target="_blank" ><FaFacebook /></a>
