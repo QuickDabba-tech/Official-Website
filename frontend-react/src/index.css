@@ -3,6 +3,9 @@
 
 html {
     overflow-y: scroll;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
   }
 
 body{
@@ -10,6 +13,7 @@ body{
     padding: 0px;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    height: 100%;
    
 }
 
