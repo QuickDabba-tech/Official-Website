@@ -215,6 +215,12 @@
       margin-left: 0px;
     }
   }
+  @media screen and (max-width:425px) {
+    .who-we-are-image img{
+      width: 55%;
+      height: 90%;
+    }
+  }
 
   @media screen and (max-width:391px) {
     .who-we-are-text {
@@ -233,5 +239,22 @@
     .who-we-are-image img{
       width: 56%;
       height: 95%;
+    }
+  }
+
+  @media screen and (max-width:375px) {
+    .who-we-are-image img{
+      width: 52%;
+      height: 88%;
+    }
+  }
+
+  @media screen and (max-width:339px){
+    .who-we-are-image img{
+      width: 43%;
+      height: 100%;
+    }
+    .who-we-are-container{
+      height: 116vh;
     }
   }

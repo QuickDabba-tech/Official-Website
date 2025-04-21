@@ -32,16 +32,6 @@ const AboutUs = () => {
           <p className="about-text">
             QuickDabba is an innovative platform connecting local home chefs with customers seeking fresh, authentic, and nutritious homemade meals. We empower chefs to turn their passion into businesses while offering customers the convenience of fast, hygienic, home-cooked food. QuickDabba delivers not just meals but the comfort and joy of authentic, home-style flavors, anytime, anywhere.
           </p>
-          
-     
-          <motion.button
-            className="about-button"
-            whileHover={{ scale: 1.09 }}
-            whileTap={{ scale: 0.9 }}
-          > <Link to="/order" className="link2">
-            Let's Go
-            </Link>  
-          </motion.button>
         </motion.div>
       </div>
     </section>
