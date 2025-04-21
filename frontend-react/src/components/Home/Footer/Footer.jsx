@@ -22,10 +22,10 @@ const Footer = () => {
       </div>
       <div className="footer-down">
         <ul>
-          <li><Link to="/" className="link">Home</Link></li>
-          <li><Link to="/order" className="link">How To Order</Link></li>
-          <li><Link to="/aboutus" className="link">About Us</Link></li>
-          <li><Link to="/contactus" className="link">Contact Us</Link></li>
+          <li><Link to="/" className="link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Link></li>
+          <li><Link to="/order" className="link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>How To Order</Link></li>
+          <li><Link to="/aboutus" className="link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>About Us</Link></li>
+          <li><Link to="/contactus" className="link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Contact Us</Link></li>
           <li><Link to="#" className="link">Privacy Policy</Link></li>
           <li><Link to="#" className="link">Terms & Conditions</Link></li>
         </ul>
