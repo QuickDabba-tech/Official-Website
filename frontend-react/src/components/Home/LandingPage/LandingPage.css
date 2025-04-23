@@ -128,7 +128,7 @@
 
 .home__carrot {
   top: 150px;
-  right: -200px;
+  right: -180px;
   width: 190px;
   height: 190px;
 }
@@ -267,6 +267,14 @@
     right: 8%;
   }
 }
+@media screen and (max-width:1289px){
+  .home__carrot {
+    top: 8.9rem;
+    right: -7.6/rem;
+    width: 8rem;
+    height: 8rem;
+  }
+}
 
 @media screen and (max-width:1262px) {
   .home__circle {
@@ -294,6 +302,12 @@
 
   .home__description {
     font-size: 1.3rem;
+  }
+  .home__carrot {
+    top: 8rem;
+    right: -7rem;
+    width: 7.5rem;
+    height: 7.5rem;
   }
 }
 

@@ -32,7 +32,6 @@
   
   .right-section {
     flex: 1;
-    margin-right: -70px;
   }
   
   .vision-image {
@@ -128,9 +127,12 @@
     margin-top: 1px;
     max-width: 800px;
   }
-  .vision-image{
-    margin-right: 60px;
+
+  .right-section{
+    margin-right: 20px;
+    margin-left: 20px;
   }
+
 }
 
 @media screen and (max-width:741px){
@@ -150,7 +152,11 @@
 @media screen and (max-width:569px){
   .our-vision-container{
     gap: 40px;
-    height: 126.7vh;
+    height: 120.7vh;
+  }
+  .vision-image{
+    width: 340px;
+    height: 320px;
   }
 }
 
@@ -159,10 +165,7 @@
     gap: 40px;
     height: 120vh;
   }
-  .vision-image {
-    width: 400px;
-    height: 380px;
-}
+
 .title {
   font-size: 2.2rem;
 }
@@ -177,8 +180,8 @@
     height: 114vh;
   }
   .vision-image {
-    width: 360px;
-    height: 340px;
+    width: 310px;
+    height: 290px;
 }
 .title {
   font-size: 2.15rem;
@@ -199,9 +202,8 @@
     height: 120vh;
   }
   .vision-image{
-    margin-right: 70px;
-    width: 310px;
-    height: 280px;
+    width: 290px;
+    height: 270px;
   }
 }
 
@@ -212,14 +214,11 @@
 }
 
 @media screen and (max-width:335px) {
-  .vision-image{
-    margin-right: 70px;
-    width: 290px;
-    height: 260px;
-  }
-}
-@media screen and (max-width:335px) {
   .our-vision-container{
-    height: 128vh;
+    height: 123vh;
+  }
+  .vision-image{
+    width: 260px;
+    height: 240px;
   }
 }

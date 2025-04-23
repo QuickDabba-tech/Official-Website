@@ -10,7 +10,6 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  max-width: 1200px;
   width: 90%;
 }
 
@@ -21,7 +20,6 @@
 
 .about-image {
   width: 627px;
-  margin-right: 30px;
   margin-left: -160px;
   margin-top: -33px;
 }
@@ -65,7 +63,6 @@
   }
   .about-image {
     width: 36.25rem;
-  margin-right: 30px;
   margin-left: -160px;
   margin-top: -1px;
   }
@@ -91,7 +88,6 @@
 
   .about-image {
     width: 34.25rem;
-    margin-right: 30px;
     margin-left: -160px;
     margin-top: -33px;
   }
@@ -122,7 +118,6 @@
     margin-right: 0.4rem;
   } 
   .about-image{
-    margin-right: 20px;
     width: 33rem;
     margin-left: -160px;
     margin-top: -21px;
@@ -144,7 +139,7 @@
   }
   .about-image{
     width: 43rem;
-    margin-left: -51px;
+    margin-left: -72px;
     margin-top: -90px;
   }
   .about-text-container{
@@ -162,6 +157,17 @@
     font-size: 1.2rem;
   }
   } 
+  @media screen and (max-width:644px){
+
+    .about-section{
+      height: 151vh;
+    }
+    .about-image{
+      width: 33rem;
+      margin-left: -112px;
+      margin-top: -93px;
+    }
+  }
 
   @media screen and (max-width:569px){
     .about-section{
@@ -186,7 +192,7 @@
     .about-image{
       width: 25rem;
       margin-top: -2.70rem;
-      margin-left: -54px;
+      margin-left: -70px;
     }
     .about-text{
       font-size: 0.9rem;
@@ -213,40 +219,54 @@
     }
   }
 
-  @media screen and (max-width:366px) {
+  @media screen and (max-width:367px) {
     .about-image{
       margin-left: -10px;
-      margin-top: 0rem;
+      margin-top: -1.4rem;
     }
   }
-  @media screen and (max-width:347px){
+
+  @media screen and (max-width:365px){
     .about-section{
-      height: 117vh;
+      height: 104vh;
     }
     .about-image{
-      margin-top: -2.9rem;
+      width: 19.8rem;
+      margin-left: -50px;
+      margin-top: -2.8rem;
+    }
+  }
+  @media screen and (max-width:349px){
+    .about-section{
+      height: 104.2vh;
+    }
+    .about-subheading{
+      font-size: 1.1rem;
+    }
+    .about-image{
+      margin-top: -3.1rem;
     }
   }
   @media screen and (max-width:345px) {
     .about-image{
-      margin-top: -1.4rem;
+      margin-top: -3.1rem;
     }
   }
 
   @media screen and (max-width:335px){
     .about-image{
-      margin-top: 0rem;
+      margin-top: -1.7rem;
     }
     .about-text-container{
       margin-left: -0.5rem;
     } 
   }
-
-  @media screen and (max-width:310px) {
-    .about-section{
-      height: 125vh;
+  @media screen and (max-width:322px) {
+    .about-subheading{
+      font-size: 1.05rem;
     }
     .about-image{
       margin-top: -1.9rem;
     }
   }
+

@@ -12,7 +12,6 @@ const Menu = () => (
   <li><NavLink to="/contactus" className="navlink">Contact Us</NavLink></li>
   </>
  )
-
 const Navbar = () => {
   const[toggleMenu, setToggleMenu] = useState(false);
   return (

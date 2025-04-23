@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+
 html {
     height: 100%;
     margin: 0px;
@@ -11,8 +12,8 @@ body{
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
-    overflow-x: hidden;
     height: 100%;
+    overflow-x: hidden;
 }
 
 :root{
