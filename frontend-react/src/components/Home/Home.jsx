@@ -10,7 +10,7 @@ const Home = () => {
     <LandingPage />
     <Aboutus />
     <WhyChoose />
-    <Blog /> 
+    <Blog />
     </>
   )
 }

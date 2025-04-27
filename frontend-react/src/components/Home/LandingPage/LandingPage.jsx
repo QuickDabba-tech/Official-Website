@@ -11,7 +11,7 @@ const LandingPage = () => {
 
 
   return (
-    <section className="home_section" id="home">
+    <section className="home_section">
       <div className="home__container">
         
         <div className="home__data">

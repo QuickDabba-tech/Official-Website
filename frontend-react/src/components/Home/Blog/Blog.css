@@ -1,153 +1,97 @@
 .blog-container {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
   background-color: var(--color-bg2);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 40px 20px;
 }
 
-.slider-wrapper {
-  width: 100%;
-  overflow: hidden;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.slider {
-  display: flex;
-  width: 100%;
-}
-
-.slide {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  width: 100%;
-  flex-shrink: 0;
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 20px;
 }
 
 .card {
-  flex: 1 1 calc(33.33% - 20px);
-  height: 72vh;
-  width: 30vw;
-  background: #fff;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .card img {
   width: 100%;
-  height: 60%;
-  object-fit: fill;
+  height: auto;
+  display: block;
 }
 
-.card h2 {
-  font-size: 1.5rem;
-  margin-top: 18px;
+.card-title {
   font-family: Acme;
+  font-size: 1.5rem;
+  margin: 16px;
+  text-align: center;
   word-spacing: 3px;
-  margin-bottom: -80px ;
 }
 
-.card p {
-  font-size: 1.2rem;
-  color: #555;
+.card-content {
   font-family: Manrope;
+  font-size: 1rem;
+  margin: 0 16px 16px 16px;
   font-weight: 700;
-  margin-bottom: 100px ;
-  margin-top: 90px;
-  padding: 6px;
-  color : var(--color-bg)
+  color: var(--color-bg);
 }
 
-@media screen and (max-width:1497px){
-  .card p{
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-width:951px){
-  .card p{
-    font-size: 1.06rem;
-  }
-  .card h2{
+@media screen and (max-width:1091px){
+  .card-title {
     font-size: 1.3rem;
   }
 }
 
-@media screen and (max-width:755px) {
-  .card p{
-    font-size: 1.02rem;
+@media screen and (max-width: 768px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
   }
-  .card h2{
-    font-size: 1.2rem;
-  }
-  .card{
-    height: 70vh;
-  }
-  .blog-container{
-    height: 86vh;
+  .card-content {
+    font-size: 0.95rem;
   }
 }
 
-@media screen and (max-width:717px){
-  .card p{
-    font-size: 0.9rem;
+@media screen and (max-width: 557px) {
+  .card-title {
+    font-size: 1.07rem;
   }
-  .card h2{
-    font-size: 1rem;
-  }
-  .card{
-    height: 60vh;
-  }
-  .blog-container{
-    height: 80vh;
+
+  .card-content {
+    font-size: 0.85rem;
   }
 }
 
-@media screen and (max-width:654px){
-  .card p{
-    font-size: 0.84rem;
+@media screen and (max-width: 483px) {
+  .card-title {
+    font-size: 0.88rem;
   }
-  .card h2{
-    font-size: 0.9rem;
-  }
-  .card{
-    height: 55vh;
-  }
-  .blog-container{
-    height: 75vh;
+
+  .card-content {
+    font-size: 0.7rem;
   }
 }
 
-@media screen and (max-width:642px){
-  .blog-container {
-    height: 110vh;
+@media screen and (max-width: 425px) {
+  .card-title {
+    font-size: 0.75rem;
   }
-  .slider{
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .card p{
+  .card-content {
     font-size: 0.6rem;
   }
-  .card h2{
-    font-size: 0.8rem;
-  }
-  .card{
-    height: 45vh;
+  .card-title{
+    word-spacing: 0px;
   }
 }
 
-@media screen and (max-width:486px) {
-  .blog-container {
-    height: 105vh;
+@media screen and (max-width: 359px) {
+  .card-title {
+    font-size: 0.65rem;
+  }
+  .card-content {
+    font-size: 0.58rem;
   }
 }

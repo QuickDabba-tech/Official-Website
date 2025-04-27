@@ -9,7 +9,6 @@
 
 .text-content {
   flex: 1;
-  margin-left: 30px;
   margin-top: -150px;
   animation: slideInFromBottom 1s ease-out;
 }
@@ -201,6 +200,7 @@
     height: 150px;
     margin-top: 80px;
     margin-left: 20px;
+    margin-right: 20px;
    }
    .tiffin-3{
     width:170px ;
@@ -550,3 +550,11 @@
      }
   }
 
+  @media screen and (max-width:341px){
+    .tiffin-2 {
+      margin-right: 0px;
+    }
+    .tiffin-1{
+      margin-left: 0px;
+    }
+  } 
