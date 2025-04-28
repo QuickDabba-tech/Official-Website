@@ -1,4 +1,4 @@
-import {React, useState} from "react";
+import {React, useState, useEffect} from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
@@ -14,6 +14,7 @@ const Menu = () => (
  )
 const Navbar = () => {
   const[toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <nav className="navbar">
       <div className="logo">

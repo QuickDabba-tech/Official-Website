@@ -6,7 +6,7 @@
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(236, 230, 230, 0.1);
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 1000;
   height: 90px;
   box-sizing: border-box;
