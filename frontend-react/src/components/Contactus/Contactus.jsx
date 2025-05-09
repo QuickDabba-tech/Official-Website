@@ -1,6 +1,7 @@
 import {React, useState}  from "react";
 import { useForm } from "react-hook-form";
 import "./Contactus.css";
+import { Helmet } from 'react-helmet';
 
 const Contactus = () => {
   const {
@@ -42,6 +43,13 @@ const Contactus = () => {
   };
 
   return (
+    <>
+        <Helmet>
+        <title>Contact Us - QuickDabba</title>
+        <meta
+          name="description"
+          content="Send us your queries or feedback through our contact form. QuickDabba is here to hear from you — just fill in the subject and your message, and we'll get back to you soon!"/>
+      </Helmet>
     <div className="contact-start">
       <div className="contact-container">
         <h2>Contact Us</h2>
@@ -109,6 +117,7 @@ const Contactus = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 
