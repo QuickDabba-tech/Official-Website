@@ -19,7 +19,7 @@ const WhyChoose = () => {
         animate={inView ? { opacity: 1, x: 0 } : {}}
         transition={{ duration: 1, delay: 0.21 }}
       >
-        <h2 className="heading">Why Choose Quick Dabba?</h2>
+        <h2 className="heading">Why Choose QuickDabba?</h2>
         <h3 className="subheading">Enjoy fresh, tasty, and healthy food delivered daily – no hassle, just flavor  !</h3>
         <p className="description">
         ✅  Delicious Variety to Keep You Excited

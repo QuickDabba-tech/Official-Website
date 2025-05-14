@@ -14,7 +14,7 @@ const WhoWeAre = () => {
       <div className="who-we-are-text">
         <h1>Who We Are</h1>
         <p>
-          Tired of the same old takeout? <strong>Quick Dabba</strong> is here to
+          Tired of the same old takeout? <strong>QuickDabba</strong> is here to
           change the way you experience food! We bring you{" "}
           <strong>homemade meals crafted by local chefs</strong> who put love
           into every bite. No more bland, mass-produced food—just{" "}
@@ -28,7 +28,7 @@ const WhoWeAre = () => {
           For customers, it’s the warmth of home, served whenever they need it.
         </p>
         <p className="big">
-          <strong>At Quick Dabba, we don’t just deliver meals. We deliver home.</strong>
+          <strong>At QuickDabba, we don’t just deliver meals. We deliver home.</strong>
         </p>
       </div>
     </div>

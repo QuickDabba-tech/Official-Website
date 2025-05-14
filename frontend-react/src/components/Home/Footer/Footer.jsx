@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
       </div>
       <hr className="footer-line" />
-      <p className="copyright">&copy; Quick Dabba | All Rights Reserved.</p>
+      <p className="copyright">&copy; QuickDabba | All Rights Reserved.</p>
     </footer>
   );
 };

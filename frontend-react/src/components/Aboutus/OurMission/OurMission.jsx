@@ -11,7 +11,7 @@ const OurMission = () => {
             <div className="mission-text">
                 <h2>Our Mission</h2>
                 <p>
-                    At <strong>Quick Dabba</strong>, we believe that nothing compares to the warmth{" "}
+                    At <strong>QuickDabba</strong>, we believe that nothing compares to the warmth{" "}
                     and goodness of a <strong>home-cooked meal</strong>. Our mission is to create{" "}
                     a bridge between <strong>home chefs</strong> who love to cook and{" "}
                     <strong>customers</strong> who crave fresh, nutritious, and authentic{" "}
@@ -28,7 +28,7 @@ const OurMission = () => {
                 </p>    
 
                 <p>
-                    For customers, <strong>Quick Dabba</strong> is more than just a{" "}
+                    For customers, <strong>QuickDabba</strong> is more than just a{" "}
                     <strong>food delivery service</strong>. It’s a way to enjoy{" "}
                     <strong>wholesome, hygienic, and soulful meals</strong> that remind them{" "}
                     of home — no artificial flavors, no mass production, just{" "}
@@ -36,7 +36,7 @@ const OurMission = () => {
                     <strong>busy professional</strong>, a <strong>student away from home</strong>,{" "}
                     or simply someone who appreciates <strong>authentic home cooking</strong>,{" "}
                     we make sure you get the best meals, whenever you need them.
-                    At <strong>Quick Dabba</strong>, we don’t just deliver food.{" "}
+                    At <strong>QuickDabba</strong>, we don’t just deliver food.{" "}
                     <strong>We bring people together through the love of home-cooked meals.</strong>
                 </p>
 
